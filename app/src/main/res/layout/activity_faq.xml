@@ -1,0 +1,150 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    tools:context="com.kashdevelopment.development.kashmirstudentportal.FAQActivity">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/logo" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+            </FrameLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/icon"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:text="Kashmir Student"
+                    android:textColor="@color/purple_900"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+            </LinearLayout>
+
+
+
+
+
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="279dp"
+            android:layout_height="match_parent"
+            >
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:paddingStart="22dp"
+
+                android:text="Author "
+                android:textSize="28dp"
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="@color/green_600" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="22dp"
+
+                android:text="Hammad Yousuf (حمام یوسف)"
+                android:textSize="20dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="@color/blue_700" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="22dp"
+        android:paddingStart="22dp"
+
+
+        android:text="Bandipora"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@color/red_700" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:text="Email:Kashsoft126@gmail.com"
+        android:textColor="@color/purple_900"
+        android:textSize="20dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="8sp"
+        android:text="Purpose Of this Application is to Provide All Materials to students including Notes ,datesheet ,Admission Notices and Online Education and some fun Stuff
+اس ایپلی کیشن کا مقصد تمام مواد کو طلباء کو نوٹوں، تاریخ نشستوں، داخلہ نوٹس اور آن لائن تعلیم اور کچھ تفریح ​​چیزوں میں فراہم کرنا ہے."
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/blue_700"
+        android:textSize="13dp"
+        android:textStyle="bold" />
+
+</LinearLayout>
+
+        </TableRow>
+    </TableLayout>
+</FrameLayout>

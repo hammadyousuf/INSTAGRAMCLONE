@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single" >
+
+
+
+        <item
+            android:id="@+id/nav_pg"
+            android:icon="@drawable/ic_note_black"
+            android:title="PG NOTES (پی جی نوٹز)"
+            />
+        <item
+            android:id="@+id/nav_ug"
+            android:icon="@drawable/ic_note_black"
+            android:title="UG NOTES (یو جی نوٹز)" />
+        <item
+            android:id="@+id/nav_10th"
+            android:icon="@drawable/ic_note_black"
+            android:title="10th+12th( بارہ ٹن نوٹ)" />
+
+        <item
+            android:id="@+id/games"
+            android:icon="@drawable/ic_gamepad_black"
+            android:title="ONLINE GAME(براہ راست کھیل)"/>
+
+        <item
+            android:id="@+id/nav_results"
+            android:icon="@drawable/ic_accessibility_black"
+            android:title="Results (نتائج)" />
+        <item
+            android:id="@+id/nav_admissions"
+            android:icon="@drawable/ic_business_black"
+            android:title="Admissions(داخلے)" />
+        <item
+            android:id="@+id/nav_entrances"
+            android:icon="@drawable/ic_arrow_forward_black"
+            android:title="Entrance(داخلہ)" />
+        <item
+            android:id="@+id/nav_datesheets"
+            android:icon="@drawable/ic_date_range_black"
+            android:title="DateSheets(تقویتیں)" />
+        <item
+            android:id="@+id/nav_papers"
+            android:icon="@drawable/ic_content_paste_black"
+            android:title="Previous Papers(سابقہ ​​کاغذات)" />
+
+    </group>
+    <item android:title="LEARN ONLINE" >
+        <menu>
+
+            <item
+                android:id="@+id/nav_PG"
+                android:icon="@drawable/ic_local_library_black"
+                android:title="Masters (ماسٹرز)" />
+            <item
+                android:id="@+id/nav_GRAD"
+                android:icon="@drawable/ic_local_library_black"
+                android:title="Graduation(گریجویشن)" />
+            <item
+                android:id="@+id/nav_12th"
+                android:icon="@drawable/ic_local_library_black"
+                android:title="12TH(بارہ)" />
+            <item
+                android:id="@+id/nav_1oth"
+                android:icon="@drawable/ic_local_library_black"
+                android:title="10th(دس)" />
+            <item
+                android:id="@+id/nav_tips"
+                android:icon="@drawable/ic_strikethrough_s_black"
+                android:title="Tips and Tricks(تجاویز اور چالیں)" />
+
+            <item
+                android:id="@+id/nav_faq"
+                android:icon="@drawable/ic_label_black_24dp"
+                android:title="FAQ(حقیقت)" />
+
+
+
+        </menu>
+    </item>
+    <item
+        android:title="Item"
+        android:visible="false" />
+
+</menu>
+

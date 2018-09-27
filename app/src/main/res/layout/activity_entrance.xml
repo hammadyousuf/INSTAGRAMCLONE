@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/entrance"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    tools:context="com.kashdevelopment.development.kashmirstudentportal.ResultsActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Entrance Notifictions"
+        android:layout_gravity="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="26sp" />
+
+
+    <Button
+        android:id="@+id/cet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="THE JandK BOARD OF PROFESSIONAL ENTRANCE EXAMINATIONS(CET)
+"
+        android:onClick="cet1"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.TabWidget"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <Button
+        android:id="@+id/neet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="THE JandK BOARD OF PROFESSIONAL ENTRANCE EXAMINATIONS(NEET,JEE)"
+        android:onClick="neet1"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.TabWidget"
+        android:textColor="@color/colorPrimaryDark" />
+    <Button
+        android:id="@+id/polytehnic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="THE JandK BOARD OF PROFESSIONAL ENTRANCE EXAMINATIONS(Poltechnic)"
+        android:onClick="polytechnic1"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.TabWidget"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <Button
+        android:id="@+id/ku"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="                 University Of KASHMIR (UG,PG ENTRANCES"
+        android:onClick="ku11"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.TabWidget"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <Button
+        android:id="@+id/sk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Sher-e-Kashmir University of Agricultural Sciences and Technology of Kashmir. Shalimar "
+        android:onClick="skuast1"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.TabWidget"
+        android:textColor="@color/colorPrimaryDark" />
+
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id">
+    </com.google.android.gms.ads.AdView>
+</LinearLayout>

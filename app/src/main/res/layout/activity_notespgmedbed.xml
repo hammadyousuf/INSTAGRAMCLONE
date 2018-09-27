@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    android:orientation="vertical"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    tools:context="com.kashdevelopment.development.kashmirstudentportal.notespgmedbedActivity">
+
+
+    <Button
+        android:id="@+id/butt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:lineSpacingExtra="10sp"
+        android:onClick="pgzool"
+        android:text="ZOOLOGY"
+
+        android:textAppearance="@style/TextAppearance.Widget.AppCompat.ExpandedMenu.Item"
+        android:textColor="?attr/colorError"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/button74"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_toEndOf="@+id/butt"
+        android:layout_toRightOf="@+id/butt"
+        android:lineSpacingExtra="10sp"
+        android:text="physics"
+        android:onClick="pgphy"
+        android:textAppearance="@style/TextAppearance.Widget.AppCompat.ExpandedMenu.Item"
+        android:textColor="?attr/colorError"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/button75"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/button74"
+        android:layout_toRightOf="@+id/button74"
+        android:lineSpacingExtra="10sp"
+        android:text="msc IT"
+        android:onClick="pgit"
+        android:textAppearance="@style/TextAppearance.Widget.AppCompat.ExpandedMenu.Item"
+        android:textColor="?attr/colorError"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/button76"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/butt"
+        android:layout_marginTop="18dp"
+        android:lineSpacingExtra="10sp"
+        android:text="Chemistry"
+        android:onClick="pgche"
+        android:textAppearance="@style/TextAppearance.Widget.AppCompat.ExpandedMenu.Item"
+        android:textColor="?attr/colorError"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/button77"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button76"
+        android:layout_alignBottom="@+id/button76"
+        android:layout_alignLeft="@+id/button74"
+        android:layout_alignStart="@+id/button74"
+        android:lineSpacingExtra="10sp"
+        android:text="sociology"
+        android:onClick="pgsoc"
+        android:textAppearance="@style/TextAppearance.Widget.AppCompat.ExpandedMenu.Item"
+        android:textColor="?attr/colorError"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/button78"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button77"
+        android:layout_alignBottom="@+id/button77"
+        android:layout_toEndOf="@+id/button77"
+        android:layout_toRightOf="@+id/button77"
+        android:lineSpacingExtra="10sp"
+        android:text="poltical Sience"
+        android:onClick="pgpol"
+        android:textAppearance="@style/TextAppearance.Widget.AppCompat.ExpandedMenu.Item"
+        android:textColor="?attr/colorError"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/button80"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button77"
+        android:layout_marginTop="28dp"
+        android:lineSpacingExtra="10sp"
+        android:text="kashmiri"
+        android:onClick="pgkas"
+        android:textAppearance="@style/TextAppearance.Widget.AppCompat.ExpandedMenu.Item"
+        android:textColor="?attr/colorError"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/button81"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button80"
+        android:layout_toLeftOf="@+id/button78"
+        android:layout_toStartOf="@+id/button78"
+        android:lineSpacingExtra="10sp"
+        android:text="History"
+        android:onClick="pghis"
+        android:textAppearance="@style/TextAppearance.Widget.AppCompat.ExpandedMenu.Item"
+        android:textColor="?attr/colorError"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/button82"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button81"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_toEndOf="@+id/button81"
+        android:layout_toRightOf="@+id/button81"
+        android:lineSpacingExtra="10sp"
+        android:text="Education"
+        android:onClick="pgedu"
+        android:textAppearance="@style/TextAppearance.Widget.AppCompat.ExpandedMenu.Item"
+        android:textColor="?attr/colorError"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/button83"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button80"
+        android:layout_marginTop="20dp"
+        android:lineSpacingExtra="10sp"
+        android:text="Economics"
+        android:onClick="pgeco"
+        android:textAppearance="@style/TextAppearance.Widget.AppCompat.ExpandedMenu.Item"
+        android:textColor="?attr/colorError"
+        android:textSize="12sp"
+        android:textStyle="italic"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/button84"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button83"
+        android:layout_alignLeft="@+id/button81"
+        android:layout_alignStart="@+id/button81"
+        android:lineSpacingExtra="10sp"
+        android:text="Math"
+        android:onClick="pgmat"
+        android:textAppearance="@style/TextAppearance.Widget.AppCompat.ExpandedMenu.Item"
+        android:textColor="?attr/colorError"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/button85"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button82"
+        android:layout_alignStart="@+id/button82"
+        android:layout_alignTop="@+id/button84"
+        android:lineSpacingExtra="10sp"
+        android:text="urdu"
+        android:onClick="pguru"
+        android:textAppearance="@style/TextAppearance.Widget.AppCompat.ExpandedMenu.Item"
+        android:textColor="?attr/colorError"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/button86"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button83"
+        android:layout_marginTop="38dp"
+        android:lineSpacingExtra="10sp"
+        android:text="Engish"
+        android:onClick="pgeng"
+        android:textAppearance="@style/TextAppearance.Widget.AppCompat.ExpandedMenu.Item"
+        android:textColor="?attr/colorError"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/button87"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button86"
+        android:layout_toLeftOf="@+id/button85"
+        android:layout_toStartOf="@+id/button85"
+        android:lineSpacingExtra="10sp"
+        android:text="Arabic"
+        android:onClick="pgara"
+        android:textAppearance="@style/TextAppearance.Widget.AppCompat.ExpandedMenu.Item"
+        android:textColor="?attr/colorError"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/button88"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button87"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_toEndOf="@+id/button87"
+        android:layout_toRightOf="@+id/button87"
+        android:lineSpacingExtra="10sp"
+        android:text="BioChemistry"
+        android:onClick="pgbioc"
+        android:textAppearance="@style/TextAppearance.Widget.AppCompat.ExpandedMenu.Item"
+        android:textColor="?attr/colorError"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/button99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button86"
+        android:layout_marginTop="24dp"
+        android:layout_toLeftOf="@+id/button74"
+        android:layout_toStartOf="@+id/button74"
+        android:text="botony"
+        android:onClick="pgbot"
+        android:textColor="@android:color/holo_red_dark" />
+
+
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id">
+    </com.google.android.gms.ads.AdView>
+</RelativeLayout>

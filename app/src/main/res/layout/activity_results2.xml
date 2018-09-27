@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/results"
+    android:orientation="vertical"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    tools:context="com.kashdevelopment.development.kashmirstudentportal.ResultsActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Results  "
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_gravity="center"
+        android:textSize="26sp" />
+
+
+    <Button
+        android:id="@+id/ku"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Kashmir University Results"
+        android:onClick="kashmir1"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.TabWidget"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <Button
+        android:id="@+id/bose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="State Board Of School Education "
+        android:onClick="State1"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.TabWidget"
+        android:textColor="@color/colorPrimaryDark" />
+    <Button
+        android:id="@+id/skaust"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="SKUAST"
+        android:onClick="skaust1"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.TabWidget"
+        android:textColor="@color/colorPrimaryDark" />
+    <Button
+        android:id="@+id/ignou"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="INDRA GANDHI NATIONAL OPEN UNIVERSITY"
+        android:onClick="indra1"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.TabWidget"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <Button
+        android:id="@+id/baba"
+        style="@android:style/Widget.Button.Toggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BABA SHAH GULAHAM SHAH BADSHAH UNIVERSITY JAMMU "
+        android:onClick="baba1"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.TabWidget"
+
+        android:textColor="@color/colorPrimaryDark" />
+    <Button
+        android:id="@+id/central"
+        style="@android:style/Widget.Button.Toggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Central University Of Kashmir "
+        android:onClick="centre1"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.TabWidget"
+
+        android:textColor="@color/colorPrimaryDark" />
+    <Button
+        android:id="@+id/service"
+        style="@android:style/Widget.Button.Toggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SERVICES SELECTION BOARD "
+        android:onClick="service1"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.TabWidget"
+        android:textColor="@color/colorPrimaryDark" />
+    <Button
+        android:id="@+id/psc"
+        style="@android:style/Widget.Button.Toggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="جموں و کشمیر کمشن براے عوامی خدمات
+JAMMU AND KASHMIR PUBLIC SERVICE COMMISSION"
+        android:onClick="psc1"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.TabWidget"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <Button
+        android:id="@+id/button116"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rewards" />
+
+</LinearLayout>

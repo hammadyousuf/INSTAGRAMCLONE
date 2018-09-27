@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/onlinaa"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    tools:context="com.kashdevelopment.development.kashmirstudentportal.twelveActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="12TH Lectures Online "
+
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="?attr/colorError"
+        android:textSize="30sp"
+        tools:text="12TH" />
+
+    <Button
+        android:id="@+id/button26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="12dp"
+        android:onClick="eng12"
+        android:text="English" />
+
+    <Button
+        android:id="@+id/button28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button26"
+        android:layout_alignBottom="@+id/button26"
+        android:layout_toEndOf="@+id/button26"
+        android:layout_toRightOf="@+id/button26"
+        android:onClick="phy12"
+        android:text="physics" />
+
+    <Button
+        android:id="@+id/button29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button54"
+        android:layout_toLeftOf="@+id/button54"
+        android:layout_toStartOf="@+id/button54"
+        android:onClick="che12"
+        android:text="chemistry" />
+
+    <Button
+        android:id="@+id/button30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button26"
+        android:layout_marginTop="32dp"
+        android:onClick="bio12"
+        android:text="biology" />
+
+    <Button
+        android:id="@+id/button49"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button30"
+        android:layout_alignBottom="@+id/button30"
+        android:layout_toEndOf="@+id/button30"
+        android:layout_toRightOf="@+id/button30"
+        android:onClick="mat12"
+        android:text="math" />
+
+    <Button
+        android:id="@+id/button54"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button56"
+        android:layout_alignLeft="@+id/button57"
+        android:layout_alignStart="@+id/button57"
+        android:onClick="uru12"
+        android:text="urdu" />
+
+    <Button
+        android:id="@+id/button55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button30"
+        android:layout_alignRight="@+id/button30"
+        android:layout_below="@+id/button30"
+        android:layout_marginTop="53dp"
+        android:onClick="chemi12"
+        android:text="chemistry2"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/button56"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button55"
+        android:onClick="pol12"
+        android:text="poltical Science"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/button57"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button59"
+        android:layout_marginBottom="27dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_toEndOf="@+id/button60"
+        android:layout_toRightOf="@+id/button60"
+        android:onClick="his12"
+        android:text="history" />
+
+    <Button
+        android:id="@+id/button58"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button55"
+        android:layout_alignRight="@+id/button55"
+        android:layout_below="@+id/button55"
+        android:layout_marginTop="59dp"
+        android:text="economics"
+        android:onClick="eco12"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/button59"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button60"
+        android:layout_alignBottom="@+id/button60"
+        android:layout_toEndOf="@+id/button58"
+        android:layout_toRightOf="@+id/button58"
+        android:onClick="ara12"
+        android:text="arabic" />
+
+    <Button
+        android:id="@+id/button60"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button58"
+        android:onClick="e12"
+        android:text="e.science" />
+
+    <Button
+        android:id="@+id/button66"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button49"
+        android:layout_toEndOf="@+id/button29"
+        android:layout_toRightOf="@+id/button29"
+        android:text="NOTES FOR 12TH" />
+
+    <Button
+        android:id="@+id/button113"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button26"
+        android:layout_toLeftOf="@+id/button54"
+        android:layout_toStartOf="@+id/button54"
+        android:text="next" />
+
+
+</RelativeLayout>

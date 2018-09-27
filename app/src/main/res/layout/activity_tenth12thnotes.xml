@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/twelveth"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    tools:context="com.kashdevelopment.development.kashmirstudentportal.tenth12thnotesActivity">
+
+    <Button
+        android:id="@+id/btnnext"
+        style="@android:style/Widget.Button.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/adView"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/adView"
+        android:layout_marginEnd="271dp"
+        android:layout_marginRight="271dp"
+        android:layout_marginTop="187dp"
+        android:text="@string/next_level"
+
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="211dp"
+        tools:text="install" />
+
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/adView"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/adView"
+        android:layout_marginLeft="104dp"
+        android:layout_marginStart="104dp"
+        android:text="10th"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:text="12th"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button136"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView6"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="21dp"
+        android:onClick="teneng"
+        android:text="ENGLISH" />
+
+    <Button
+        android:id="@+id/button137"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView6"
+        android:layout_alignStart="@+id/textView6"
+        android:layout_alignTop="@+id/button136"
+        android:onClick="tensci"
+        android:text="SCIENCE" />
+
+    <Button
+        android:id="@+id/button138"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/adView"
+        android:layout_alignRight="@+id/adView"
+        android:layout_alignTop="@+id/button137"
+        android:onClick="tenssc"
+        android:text="S.SCIENCE" />
+
+    <Button
+        android:id="@+id/button139"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/adView"
+        android:layout_alignStart="@+id/adView"
+        android:layout_below="@+id/button136"
+        android:layout_marginTop="11dp"
+        android:onClick="tenuru"
+        android:text="URDU" />
+
+    <Button
+        android:id="@+id/button140"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button139"
+        android:layout_marginTop="14dp"
+        android:layout_toLeftOf="@+id/button138"
+        android:layout_toStartOf="@+id/button138"
+        android:onClick="tenmat"
+        android:text="MATH" />
+
+    <Button
+        android:id="@+id/button141"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView7"
+        android:layout_marginTop="23dp"
+        android:onClick="twephy"
+        android:text="PHYSICS" />
+
+    <Button
+        android:id="@+id/button142"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button141"
+        android:layout_toEndOf="@+id/button136"
+        android:layout_toRightOf="@+id/button136"
+        android:onClick="tenche"
+        android:text="CHEMISTRY" />
+
+    <Button
+        android:id="@+id/button143"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button142"
+        android:layout_toEndOf="@+id/button137"
+        android:layout_toRightOf="@+id/button137"
+        android:onClick="twebot"
+        android:text="BOTONY" />
+
+    <Button
+        android:id="@+id/button144"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button141"
+        android:layout_marginTop="12dp"
+        android:onClick="twezoo"
+        android:text="ZOOLOGY" />
+
+    <Button
+        android:id="@+id/button145"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button142"
+        android:layout_alignStart="@+id/button142"
+        android:layout_alignTop="@+id/button144"
+        android:onClick="tweeco"
+        android:text="ECONOMICS" />
+
+    <Button
+        android:id="@+id/button146"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button143"
+        android:layout_alignStart="@+id/button143"
+        android:layout_alignTop="@+id/button145"
+        android:onClick="twepol"
+        android:text="POLTICAL SCIENE" />
+
+    <Button
+        android:id="@+id/button147"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/adView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="twemat"
+        android:text="MATH" />
+
+    <Button
+        android:id="@+id/button148"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button145"
+        android:layout_alignStart="@+id/button145"
+        android:layout_alignTop="@+id/button147"
+        android:onClick="tweedu"
+        android:text="EDUCATION" />
+
+    <Button
+        android:id="@+id/button149"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/adView"
+        android:layout_alignLeft="@+id/button146"
+        android:layout_alignStart="@+id/button146"
+        android:onClick="tweesi"
+        android:text="E.SCIENCE" />
+
+    <Button
+        android:id="@+id/button150"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button142"
+        android:layout_alignLeft="@+id/button142"
+        android:layout_alignStart="@+id/button142"
+        android:onClick="twephysical"
+        android:text="physical education" />
+
+</RelativeLayout>

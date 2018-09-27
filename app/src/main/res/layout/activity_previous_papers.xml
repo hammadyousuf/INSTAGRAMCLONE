@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/oldpaper"
+    android:orientation="vertical"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    tools:context="com.kashdevelopment.development.kashmirstudentportal.ResultsActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Previous Papers"
+        android:layout_gravity="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="26sp" />
+
+
+    <Button
+        android:id="@+id/Papers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="                         University Of KASHMIR                               "
+        android:onClick="kpapers"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.TabWidget"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <Button
+        android:id="@+id/bed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="                                              B.E.D                                                "
+        android:onClick="BED"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.TabWidget"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <Button
+        android:id="@+id/kas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="                  KASHMIR ADMINSTRATIVE SERVICES                  "
+        android:onClick="kas"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.TabWidget"
+        android:textColor="@color/colorPrimaryDark" />
+    <Button
+        android:id="@+id/ignous"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="              INDRA GANDHI NATIONAL OPEN UNIVERSITY    "
+        android:onClick="ignousp"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.TabWidget"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <Button
+        android:id="@+id/pbose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="             State Board of school education kashmir    "
+        android:onClick="bosep"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.TabWidget"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <Button
+        android:id="@+id/button112"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="cash" />
+
+</LinearLayout>

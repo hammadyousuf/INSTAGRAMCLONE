@@ -1,0 +1,286 @@
+{
+  "project_info": {
+    "project_number": "882514032746",
+    "firebase_url": "https://firstnetwork-c9f74.firebaseio.com",
+    "project_id": "firstnetwork-c9f74",
+    "storage_bucket": "firstnetwork-c9f74.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:882514032746:android:8dcd631c2f7f348d",
+        "android_client_info": {
+          "package_name": "com.Kashsoft.com.kashdevelopment.development.kashmirstudentportal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "882514032746-trtc3ctnln6pdhpb07ik0euqqilhs5lt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.Kashsoft.com.kashdevelopment.development.kashmirstudentportal",
+            "certificate_hash": "7c6883505d6c0aeef0c237a7765a663827b80d5b"
+          }
+        },
+        {
+          "client_id": "882514032746-njget6v100ca1ueh9vkpe8b1ikg8jvqs.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "882514032746-njget6v100ca1ueh9vkpe8b1ikg8jvqs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPh3t7qkzUgHmahrfus-sIljPxwFYUsZ0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "882514032746-njget6v100ca1ueh9vkpe8b1ikg8jvqs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:882514032746:android:26affd6d9ecca840",
+        "android_client_info": {
+          "package_name": "com.Kashsoft.kashmiriGram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "882514032746-2i3aqiak0ql3as0u38r0tio5jabvm3td.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.Kashsoft.kashmiriGram",
+            "certificate_hash": "7c6883505d6c0aeef0c237a7765a663827b80d5b"
+          }
+        },
+        {
+          "client_id": "882514032746-njget6v100ca1ueh9vkpe8b1ikg8jvqs.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "882514032746-njget6v100ca1ueh9vkpe8b1ikg8jvqs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPh3t7qkzUgHmahrfus-sIljPxwFYUsZ0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "882514032746-njget6v100ca1ueh9vkpe8b1ikg8jvqs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:882514032746:android:bd79ff92cba23c7a",
+        "android_client_info": {
+          "package_name": "com.Kashsoft.kashmirigram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "882514032746-8pkuk2040h2f3b0ijtluekmck06bb5lr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.Kashsoft.kashmirigram",
+            "certificate_hash": "7c6883505d6c0aeef0c237a7765a663827b80d5b"
+          }
+        },
+        {
+          "client_id": "882514032746-njget6v100ca1ueh9vkpe8b1ikg8jvqs.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "882514032746-njget6v100ca1ueh9vkpe8b1ikg8jvqs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPh3t7qkzUgHmahrfus-sIljPxwFYUsZ0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "882514032746-njget6v100ca1ueh9vkpe8b1ikg8jvqs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:882514032746:android:9024a9eecd0163a9",
+        "android_client_info": {
+          "package_name": "com.kashdevelopment.com.kashdevelopment.development.kashmirstudentportal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "882514032746-rd556f6du2r17nttu1lpi62g1jstk62d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kashdevelopment.com.kashdevelopment.development.kashmirstudentportal",
+            "certificate_hash": "7c6883505d6c0aeef0c237a7765a663827b80d5b"
+          }
+        },
+        {
+          "client_id": "882514032746-njget6v100ca1ueh9vkpe8b1ikg8jvqs.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "882514032746-njget6v100ca1ueh9vkpe8b1ikg8jvqs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPh3t7qkzUgHmahrfus-sIljPxwFYUsZ0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "882514032746-njget6v100ca1ueh9vkpe8b1ikg8jvqs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:882514032746:android:bc39e81b8b90cd0e",
+        "android_client_info": {
+          "package_name": "com.kashdevelopment.development.kashmirstudentportal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "882514032746-5id0ul789ru6rkulis63k02h8fcgqi8f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kashdevelopment.development.kashmirstudentportal",
+            "certificate_hash": "7c6883505d6c0aeef0c237a7765a663827b80d5b"
+          }
+        },
+        {
+          "client_id": "882514032746-njget6v100ca1ueh9vkpe8b1ikg8jvqs.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "882514032746-njget6v100ca1ueh9vkpe8b1ikg8jvqs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPh3t7qkzUgHmahrfus-sIljPxwFYUsZ0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "882514032746-njget6v100ca1ueh9vkpe8b1ikg8jvqs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:882514032746:android:866d2ad5c0325a24",
+        "android_client_info": {
+          "package_name": "com.networking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "882514032746-njget6v100ca1ueh9vkpe8b1ikg8jvqs.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "882514032746-njget6v100ca1ueh9vkpe8b1ikg8jvqs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPh3t7qkzUgHmahrfus-sIljPxwFYUsZ0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
